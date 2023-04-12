@@ -1,0 +1,17 @@
+GET http://localhost:3003/songs
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "name": "superafim",
+    "bandId": "1"
+}
+###
+PUT http://localhost:3003/songs/3fni1ulm
+Content-Type: application/json
+
+{
+    "name": "superafim"
+}

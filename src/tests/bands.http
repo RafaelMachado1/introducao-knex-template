@@ -1,0 +1,17 @@
+GET http://localhost:3003/bands
+###
+
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "name": "Babymet"
+}
+###
+PUT http://localhost:3003/bands/hrw20tjh
+Content-Type: application/json
+
+{
+    "name": "Nightwish"
+}
